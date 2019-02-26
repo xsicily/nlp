@@ -7,12 +7,10 @@ Keywords: text mining, LSI model, wikipedia dump files
 
 ## 1. Data preperation
 
-[1] Download Wikipedia dump files (enwiki-latest-pages-articles.xml.bz2) from:
-  	http://download.wikimedia.org/enwiki/ 
+[1] Download Wikipedia dump files (enwiki-latest-pages-articles.xml.bz2) from: http://download.wikimedia.org/enwiki/ 
     The size of XML files is about 14GB.
 
-[2] Parse wikipedia dump files
-    'wikiparse.bat' can be used to parse the dump files.
+[2] Parse wikipedia dump files 'wikiparse.bat' can be used to parse the dump files.
     The original source code is from TOPIC MODEL gensim: https://radimrehurek.com/gensim/wiki.html#latent-semantic-analysis
 
 [3] The parse process may need around 14hrs, which depends on your computer. Need 35GB to store the parsed documents. The parsed documents includde:
