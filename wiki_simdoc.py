@@ -1,7 +1,7 @@
 #------------Wikipedia based similarity----------------#
 
-# Wikipedia based similarity
 """ Compute the similarty between defined two sentences using Wikipedia dump files """
+
 import gensim
 #from gensim.corpora import WikiCorpus, MmCorpus
 from gensim import corpora, models, similarities
@@ -51,14 +51,3 @@ sentence2= 'Take some apples.'
 
 Simresult = Wiki_similarity(sentence1,sentence2) ############### 
 print('wikiSim=',Simresult) # 
-
-
-sentence=['I like that bachelor.','I like that unmarried man.'] 
-sentence=['I have a pen.','Where do you live?']   
-sentence=['John is very nice.','Is John very nice.']
-sentence=['Canis familiaris are animals.','Dogs are common pets.']
-sentence=['It is a dog.','It is a log.']
-sentence=['It is a dog.','It is a pig.']
-sentence=['It is a dog.','That must be your dog.']
-sentence=['I have a hammer.','Take some nails.']
-sentence=['I have a hammer.','Take some apples.']
