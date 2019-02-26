@@ -1,5 +1,5 @@
 #------------Wikipedia based similarity----------------#
-### fuctions of getting vector and sentence similarity refers to https://github.com/neomoha/python-lsi-similarity/blob/master/model.py
+### functions of getting vector and sentence similarity refers to https://github.com/neomoha/python-lsi-similarity/blob/master/model.py
 
 """ Compute the similarty between defined two sentences using Wikipedia dump files """
 
