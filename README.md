@@ -40,3 +40,5 @@ keywords: text mining, gensi model, wikipedia
 [2] Sentence similarity is computed by comparing the LSI vectors after converting to LSI space (cosine similarity).
 
 ## 4. Search similar documents associated to the input sentence from Wikipedia dump files
+
+The schematic diagram of algorithms are described in flowChart.JPEG.
