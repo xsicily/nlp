@@ -1,5 +1,5 @@
 # nlp-Wikipedia Similarity
-keywords: text mining, gensi model, wikipedia
+Keywords: text mining, LSI model, wikipedia dump files
 
   Corpus-Based similarity is a semantic similarity measure that determines the similarity between words according to information gained from large corpora. As the largest knowledge repository on the Web, Wikipedia provides a large number of documents with more natural concepts because all the context are defined by humans with their background knowledge and experience. In recent years, more and more researchers are attracted by the size and well-formed structure of Wikipedia database especially in the application of natural language processing. 
 
